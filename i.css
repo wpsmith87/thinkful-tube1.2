@@ -1,0 +1,158 @@
+/* Styles */
+
+body * {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #298eea;
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+}
+
+/*  Search Form  */
+
+.js-search-form {
+    margin: 0 auto;
+    width: inherit;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.js-search-form legend {
+    text-align: center;
+    font-weight: 300;
+    color: #565656;
+    margin: 0 auto 45px;
+    font-size: 35px;
+    line-height: 38px;
+    letter-spacing: 0;
+}
+
+/*  Result Form  */
+
+.js-result-form {
+    margin: 0 auto;
+    width: inherit;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.js-result-form .js-title {
+text-align: center;
+    font-weight: 300;
+    color: #565656;
+    margin: 0 auto 45px;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0;
+
+}
+
+.js-result-form .js-channel {
+	 font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+.js-result-form .js-desc {
+	 font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+.js-vidprev:hover {
+	 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.js-vidprev {
+	: ;}
+
+
+/* Search Form Inputs */
+
+input[type='text'],
+input[type='submit']{
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+
+input[type='text']:focus,
+input[type='submit']:focus {
+    border-color: #E7E7E7;
+    box-shadow: none;
+}
+
+input[type='submit'] {
+    color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+}
+
+input:hover[type='submit'] {
+    background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Search Form Text */
+
+.js-search-form p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover { color: #E7F1F9 }
+
+.footer p { margin-bottom: 40px }
+
